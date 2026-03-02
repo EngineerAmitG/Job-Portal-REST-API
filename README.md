@@ -66,7 +66,14 @@ Controller → Service → Repository → Database
 - Prevent Duplicate Applications
 
 ---
+## 🔗 Sample API Endpoints
 
+POST /api/companies
+GET /api/companies
+POST /api/jobs
+GET /api/jobs/search?location=Bangalore
+POST /api/jobs/{jobId}/apply/{candidateId}
+GET /api/applications
 
 
 ---
@@ -86,5 +93,4 @@ Controller → Service → Repository → Database
 **EngineerG** 
 Developer
 
-## 🔗 Sample API Endpoints
 
