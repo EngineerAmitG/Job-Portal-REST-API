@@ -69,10 +69,15 @@ Controller → Service → Repository → Database
 ## 🔗 Sample API Endpoints
 
 POST /api/companies
+
 GET /api/companies
+
 POST /api/jobs
+
 GET /api/jobs/search?location=Bangalore
+
 POST /api/jobs/{jobId}/apply/{candidateId}
+
 GET /api/applications
 
 
